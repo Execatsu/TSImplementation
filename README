@@ -1,0 +1,37 @@
+// //Instalação do Node
+// npm init -y
+
+// //Instalação do Typescript
+// npm i typescript -D
+
+// //Criação do tsconfig.json
+// npx tsc --init
+
+// No arquivo 'tsconfig.json':
+// Mudar 'module' para 'ES6'
+// Mudar 'outDir' para './dist'
+
+// Cria o index.html
+// Cria pasta 'src'
+// Cria o arquivo do 'ts'
+
+
+// //Instala WebPack Ts
+// npm i ts-loader -D
+
+// // Cria arquivo webpack.config.js
+// Copia todos os dados e preenche os mesmos do site
+
+// // Instala WebPack Client
+// npm i webpack-cli
+
+// // Executa o webpack e gera a bundle
+// npx webpack
+
+// // Acessa o arquivo package.json
+// // Define o método de execução como de desenvolvimento
+// // Adiciona script dev após o test
+// "dev": "webpack --mode development -w"
+
+// // Executa o comando
+// npm run dev
